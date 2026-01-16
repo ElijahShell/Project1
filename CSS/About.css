@@ -1,32 +1,21 @@
-/* ============================
-   About section layout
-   - Mobile-first
-   - Stack content by default
-   - Switch to two columns on larger screens
-============================ */
 
 #about {
-  padding: 1.25rem 1rem;   /* slightly smaller on mobile */
+  padding: 1.25rem 1rem;   
 }
 
-/* MOBILE DEFAULT:
-   - Stack text and hours card vertically */
-.about-layout {
+
+.about-text {
+  text-align: left;
   display: flex;
   flex-direction: column;
-  gap: 1.25rem;
-}
-
-/* Left column (on desktop), top block (on mobile) */
-.about-text {
   flex: 2;
 }
 
 .about-text p {
   margin-bottom: 0.75rem;
+  font-size: large;
 }
 
-/* Small tagline above the main copy */
 .about-tagline {
   font-size: 0.85rem;
   letter-spacing: 0.06em;

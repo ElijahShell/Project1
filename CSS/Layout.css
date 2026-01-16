@@ -71,11 +71,17 @@ nav a:hover {
   background: rgba(0, 0, 0, 0.65);
 }
 
+iframe{
+  float: right;;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
 
 footer {
   background-color: #2b2d42;
   color: #fff;
   padding: 1.5rem 1rem;
+  margin-top: 80px;
   text-align: center;
 }
 
