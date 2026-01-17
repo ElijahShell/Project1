@@ -6,7 +6,7 @@ main {
 
 
 header {
-   background-image: url(/Images/Blue_Toyota.jpg);
+   background-image: url("../Images/Blue_Toyota.jpg");
   
    background-color: rgba(7, 7, 7, 0.3); 
    background-blend-mode: darken; 
