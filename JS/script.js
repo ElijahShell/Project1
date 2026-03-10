@@ -143,8 +143,9 @@ deleteEventBtn.addEventListener("click", deleteEvent);
 
 //If user clicks on anywhere except the input are close the Modal
 window.addEventListener("click", (e)=>{
-    if(e.target == eventModal) 
-    closeModalWindow();
+    if(e.target === eventModal){
+        closeModalWindow();
+    }
 });
 
 window.onload = () => {
